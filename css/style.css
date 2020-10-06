@@ -1,0 +1,54 @@
+@font-face {
+  font-family: pridi-bold;
+  src: url(fonts/pridi/Pridi-Bold.ttf);
+}
+@font-face {
+  font-family: pridi-light;
+  src: url(fonts/pridi/Pridi-Light.ttf);
+}
+@font-face {
+  font-family: pridi-extra-light;
+  src: url(fonts/pridi/Pridi-ExtraLight.ttf);
+}
+@font-face {
+  font-family: oleo-regular;
+  src: url(fonts/oleo/OleoScript-Regular.ttf);
+}
+body{	
+	margin: 20px;
+	padding: 0px;
+	background-color: skyblue;
+	background: url("img.jpg") no-repeat no-repeat center center;
+	background-size: cover;
+	min-height: 100vh;
+}
+h1{
+	text-decoration: underline;
+}
+span{
+	color: green;
+	font-size: 40px;
+}
+span.brown{
+	color: brown;
+}
+button{
+	background-color: green;
+	padding: 2px 10px 2px 10px;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: oleo-regular;
+}
+input{
+	width: 20%;
+	padding: 4px 10px 4px 10px;
+}
+input::placeholder{
+	text-align: left;
+	border-radius: 18px;
+	color: brown;
+	font-family: oleo-regular;
+	font-size: 19px;
+}
